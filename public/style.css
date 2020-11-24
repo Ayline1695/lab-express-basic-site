@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0}
+main{
+    background-color: #3f3f3f;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.nav{
+    padding: 10px;
+    background-color: #000000;
+}
