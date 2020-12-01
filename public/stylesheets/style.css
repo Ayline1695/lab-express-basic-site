@@ -1,16 +1,92 @@
-*{margin: 0; padding: 0}
-main{
-    background-color: #3f3f3f;
-    font-family: 'Courier New', Courier, monospace;
-}
-a{
+*{margin: 0; padding: 0;    font-family: 'Castoro', serif;
+    background-color: #3f3f3fe8;}
+a {
     text-decoration: none;
-    color: #ffffff;
 }
-.nav{
+.name{
+    font-size: 20px;
+}
+.navbar-basic{
     padding: 20px;
-    background-color: #000000;
+    background-color: #3f3f3fe8;
 }
-.carousel-item img{
-    max-width: 600px;
+.index{
+    background-color: #3f3f3fe8;
 }
+.title-game{
+color: #ffffff;
+font-family: Assasin
+}
+.gallery  {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.navbar-basic a{
+    color: rgba(255, 250, 250, 0.9);
+    padding: 20px;
+
+}
+main{
+    background-color: #504f4f94;
+    padding: 10px;
+}
+.gallery img{
+    max-width: 250px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #3f3f3fe8;
+}
+
+/* carousel-item */
+.carousel-item{
+    background-color: #504f4f94;
+}
+.carousel-item img {
+    max-width: 800px;
+}
+
+/* about */
+
+.about {
+    margin: 5%;
+    text-align: justify;
+    color: #b1b1b1;
+}
+
+.about h1{
+    padding: 10px 0;
+}
+.about p{
+    padding: 5px 0;
+}
+
+/*Works*/
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: top;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #504f4f94;
+    padding: 10px;
+}
+.works div{
+    width: 300px;
+    border: 2px solid #3f3f3f4b;
+    vertical-align: top;
+    margin: 8px;
+    background-color: #ffffff;
+}
+.works img{
+    max-width: 300px;
+}
+.works p,h4{
+    padding: 6px;
+    text-align: justify;
+    background-color: #ffffff;
+}
+
